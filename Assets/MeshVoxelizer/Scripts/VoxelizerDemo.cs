@@ -16,8 +16,6 @@ namespace MeshVoxelizerProject
 
         void Start()
         {
-            RenderEvent.AddRenderEvent(Camera.main, DrawOutline);
-
             MeshFilter filter = GetComponent<MeshFilter>();
             MeshRenderer renderer = GetComponent<MeshRenderer>();
 
@@ -56,13 +54,9 @@ namespace MeshVoxelizerProject
             renderer.material = mat;
         }
 
-        void OnDestroy()
+        private void OnRenderObject()
         {
-            RenderEvent.RemoveRenderEvent(Camera.main, DrawOutline);
-        }
-
-        private void DrawOutline(Camera camera)
-        {
+            var camera = Camera.current;
 
             if (drawAABBTree && m_voxelizer != null)
             {

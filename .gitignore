@@ -3,3 +3,11 @@
 ################################################################################
 
 /UserSettings
+/Temp
+/Packages
+/obj/Debug
+/Mesh-Voxelization.sln
+/Logs
+/Library
+/Assembly-CSharp.csproj
+/.vs/Mesh-Voxelization/v16
