@@ -11,12 +11,10 @@ The original code for the AABB tree can be found in the core section of [this](h
 
 For the demo scene the voxels are converted back into a mesh by adding quads at the edge of each voxel.
 
-You can download a unity package [here](https://app.box.com/s/tv3vbd6u2fq7qzknoxjaoxnrxntll1hi).
-
 The mesh before voxelization.
 
-![Before voxelization](https://static.wixstatic.com/media/1e04d5_cb4d56c0ad57454b938fc883779888e4~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01/1e04d5_cb4d56c0ad57454b938fc883779888e4~mv2.jpg)
+![Before voxelization](./Media/BeforeVoxelization.jfif)
 
 The mesh after voxelization.
 
-![After voxelization](https://static.wixstatic.com/media/1e04d5_f8c8cebbe5c54ffe98b2bc1eb6ae2c82~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01/1e04d5_f8c8cebbe5c54ffe98b2bc1eb6ae2c82~mv2.jpg)
+![After voxelization](./Media/AfterVoxelization.jfif)
